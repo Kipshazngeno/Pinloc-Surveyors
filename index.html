@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PinLoc Surveyors Ltd</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .hero-section {
+            background-color: maroon;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .hero-section .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+        }
+
+        .stats-section {
+            background-color: grey;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .stats-section div {
+            text-align: center;
+        }
+
+        .specialists-section {
+            background-color: white;
+            padding: 50px 20px;
+        }
+
+        .specialist-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .why-choose-us {
+            background-color: maroon;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .testimonials-section {
+            background-color: grey;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .newsletter-section {
+            background-color: maroon;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .footer {
+            background-color: grey;
+            color: white;
+            padding: 20px 20px;
+            text-align: center;
+        }
+
+        .image-section img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: maroon;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .btn-primary:hover {
+            background-color: white;
+            color: maroon;
+            border: 2px solid maroon;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PinLoc Surveyors Limited</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Applications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="#">Log In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="content">
+            <div>
+                <h1>Find & Search Your Favourite Surveyor</h1>
+                <p>Discover the best surveying services for your land and property needs.</p>
+                <form class="d-flex">
+                    <input type="text" class="form-control me-2" placeholder="Search services...">
+                    <button class="btn btn-light">Search</button>
+                </form>
+            </div>
+            <div>
+                <img src="./Pinlocs/abby11.jpg" alt="Surveying Image" style="max-width: 600px; border-radius: 600px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div>
+            <h2>24/7</h2>
+            <p>Customer Support</p>
+        </div>
+        <div>
+            <h2>500+</h2>
+            <p>Projects Completed</p>
+        </div>
+        <div>
+            <h2>100+</h2>
+            <p>Team Members</p>
+        </div>
+    </section>
+
+    <!-- Consulting Specialists Section -->
+<section class="specialists-section">
+    <h2 class="text-center">Our Consulting Specialists</h2>
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <div class="specialist-card">
+                <img src="./Pinlocs/Toposurv.jpeg" alt="Topographical Survey" style="max-width: 100%; border-radius: 5px;">
+                <h5>Topographical Survey</h5>
+                <p>We provide accurate land topography services for all your needs.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="specialist-card">
+                <img src="./Pinlocs/Geodetic surv.jpeg" alt="Geodetic Survey" style="max-width: 100%; border-radius: 5px;">
+                <h5>Geodetic Survey</h5>
+                <p>Expert services in measuring earth's shape and gravitational field.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="specialist-card">
+                <img src="./Pinlocs/surv4.jpg" alt="Construction Survey" style="max-width: 100%; border-radius: 5px;">
+                <h5>Construction Survey</h5>
+                <p>Detailed layout services for construction projects.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="specialist-card">
+                <img src="./Pinlocs/boundary surv.jpeg" alt="Boundary Survey" style="max-width: 100%; border-radius: 6px;">
+                <h5>Boundary Survey</h5>
+                <p>Precise property boundary determination services.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <h2 class="text-center">Why Choose Us?</h2>
+        <ul class="list-unstyled mt-4 text-center">
+            <li>✔ Highly Experienced Professionals</li>
+            <li>✔ Cutting-edge Surveying Equipment</li>
+            <li>✔ Timely and Accurate Deliverables</li>
+            <li>✔ Customer-Centric Approach</li>
+        </ul>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <h2 class="text-center">What Our Clients Say</h2>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <blockquote>
+                    <p>"PinLoc Surveyors provided exceptional service for our land project. Highly recommend!"</p>
+                    <footer>- John Doe</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-6">
+                <blockquote>
+                    <p>"Their team is professional and thorough. They exceeded our expectations."</p>
+                    <footer>- Jane Smith</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form class="d-flex justify-content-center mt-3">
+            <input type="email" class="form-control w-50 me-2" placeholder="Enter your email">
+            <button class="btn btn-light">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 PinLoc Surveyors Ltd. All rights reserved.</p>
+        <footer class="bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>PINLOC SURVEYORS LTD</h5>
+                        <p>Land in your Land and Live a Life that is worth Living.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Useful Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">About Us</a></li>
+                            <li><a href="#" class="text-white">Privacy Policy</a></li>
+                            <li><a href="#" class="text-white">Our Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Address</h5>
+                        <p>P.O.M BOX 632-00618, 
+                            KASARANI NAIROBI, 
+                            KENYA</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
